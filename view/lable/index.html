@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tan Phu Paint</title>
+    <link rel="website icon" type="png" href="./img/logo/11-3243-removebg-preview.png">
+    <link rel="stylesheet" href="./asset/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/setting/default.css">
+    <link rel="stylesheet" href="./css/setting/color.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/body/header.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="app">
+        <header id="heaer">
+            <div class="grid">
+                <nav class="heaer_nav">
+                    <div class="nav_reponsive">
+                        <i class="fa-solid fa-bars nav_reponsive_icon" onclick="openMenu()"></i>
+                            <div class="memnu_second" id="menu_reponsive_list">
+                                <ul class="menu_reponsive_list" >
+                                    <li class="menu_reponsive_item menu_none">
+                                        <i class="fa-solid fa-xmark close" onclick="closeMenu()"></i>
+                                    </li>
+                                    <li class="menu_reponsive_item">
+                                        <a href="#" class="menu_reponsive_link">
+                                            home
+                                        </a>
+                                    </li>
+                                    <li class="menu_reponsive_item">
+                                        <a href="#" class="menu_reponsive_link">
+                                            về chúng tôi
+                                        </a>
+                                    </li>
+                                    <li class="menu_reponsive_item">
+                                        <a href="#" class="menu_reponsive_link">
+                                            sản phẩm
+                                        </a>
+                                    </li>
+                                    <li class="menu_reponsive_item">
+                                        <a href="#" class="menu_reponsive_link">
+                                            dự án 
+                                        </a>
+                                    </li>
+                                    <li class="menu_reponsive_item">
+                                        <a href="#" class="menu_reponsive_link">
+                                           tin tức
+                                        </a>
+                                    </li>
+                                    <li class="menu_reponsive_item">
+                                        <a href="#" class="menu_reponsive_link">
+                                           liên hệ
+                                        </a>
+                                    </li>
+                                    <!-- Add more menu items here -->
+                                </ul>
+                            </div>
+                        
+                    </div>
+                    <div class="heaer_nav_logo">
+                        <a href="../lable/index.html">
+                            <img src="./img/logo/11-3243-removebg-preview.png" alt="Tan Phu Paint" loading="lazy" class="heaer_nav-img">
+                        </a>
+                    </div>
+                    <div class="header_nav-menu">
+                        <div class="header_nav-menu_tool">
+                            <ul class="header_nav-menu_list">
+                                <li class="header_nav-menu_item">
+                                   <a href="" class="header_nav-menu_link">
+                                        <i class="fa-solid fa-house header_nav-menu_icon"></i>
+                                   </a>
+                                </li>
+                                <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        về chúng tôi
+                                    </a>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        sản phẩm 
+                                    </a>
+                                        <div class="menu_second">
+                                            <ul class="header_nav-menu_list_second">
+                                                <li class="header_nav-menu_item_second">
+                                                    <a href="#" class="header_nav-menu_link_second">khu vực ứng dụng</a>
+                                                </li>
+                                                <li class="header_nav-menu_item_second">
+                                                    <a href="#" class="header_nav-menu_link_second">tính năng</a>
+                                                </li>
+                                                <li class="header_nav-menu_item_second">
+                                                    <a href="#" class="header_nav-menu_link_second">lớp phủ bảo vệ</a>
+                                                </li>
+                                                <li class="header_nav-menu_item_second">
+                                                    <a href="#" class="header_nav-menu_link_second">vữa chữa bề mặt</a>
+                                                </li>
+                                            </ul>   
+                                        </div>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        dự án 
+                                    </a>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        tin tức 
+                                    </a>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                       liên hệ
+                                    </a>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        <i class="fa-solid fa-magnifying-glass header_nav-menu_icon_search"></i>
+                                    </a>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        <img src="././img/language/Hinh-nen-Quoc-Ky-VN-16.jpg" alt="vietnamese" sizes="" srcset="" loading="lazy" class="language">
+                                    </a>
+                                 </li>
+                                 <li class="header_nav-menu_item">
+                                    <a href="" class="header_nav-menu_link">
+                                        <img src="././img/language/co-anh.png" alt="English" sizes="" srcset="" loading="lazy" class="language">
+                                    </a>
+                                 </li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="wapper">
+            <!-- Mở đầu phần banner -->
+            <section id="banner">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="././img/slider/slide-son-1-8567-89810.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="././img/slider/slide-son-2-6363-3774.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="././img/slider/slide-son-3-4808-89500.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="././img/slider/slide-son-4-5615-35430.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <!-- kết thúc phần banner -->
+             <!-- mở đầu sản phẩm nổi tiếng -->
+             <section id="popular_product">
+                <div class="grid">
+                    <header id="header_popular_product">
+                        <hr class="bodder">
+                        <h2 class="header_popular_product_txt">sản phẩm nổi bật</h2>
+                        <hr class="bodder">
+                    </header>
+                    <nav class="nav_popular_product">
+                        <div class="grid_zone">
+                            <!-- mở đầu phần zone các sản phẩm -->
+                            <div class="zone_product">
+                                <div class="contend">
+                                    <div class="zone_product_image">
+                                        <img src="./img/popular_product/2caa3d5f-b4da-4f77-b793-dda59ddd2b5d2911332x4154758399x415-7367-removebg-preview.png" alt="" srcset="" class="img_product_popular">
+                                    </div>
+                                    <div class="title_product">
+                                        <a href="" class="title_product_link">
+    
+                                            <label class="title_product_txt"> sơn chống dính </label>
+                                        </a>
+                                    </div>
+                                    <div class="meta_product">
+                                        <span class="meta_product_txt">Đây là sản phẩm bột trét dùng để làm phẳng bề mặt</span>
+                                    </div>
+                                    <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+                                        <div class="btn_see_more_product">
+                                            <input type="hidden" name="img" value="img/video">
+                                            <input type="hidden" name="tilte" value="tille">
+                                            <input type="hidden" name="meta" value="meta">
+                                           <input type="button" class="see_more_product_btn" value="Xem thêm">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- kết thúc phần zone các sản phẩm -->
+                               <!-- mở đầu phần zone các sản phẩm -->
+                               <div class="zone_product">
+                                <div class="contend">
+                                    <div class="zone_product_image">
+                                        <img src="./img/popular_product/2caa3d5f-b4da-4f77-b793-dda59ddd2b5d2911332x4154758399x415-7367-removebg-preview.png" alt="" srcset="" class="img_product_popular">
+                                    </div>
+                                    <div class="title_product">
+                                        <a href="" class="title_product_link">
+    
+                                            <label class="title_product_txt"> sơn chống dính </label>
+                                        </a>
+                                    </div>
+                                    <div class="meta_product">
+                                        <span class="meta_product_txt">Đây là sản phẩm bột trét dùng để làm phẳng bề mặt</span>
+                                    </div>
+                                    <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+                                        <div class="btn_see_more_product">
+                                            <input type="hidden" name="img" value="img/video">
+                                            <input type="hidden" name="tilte" value="tille">
+                                            <input type="hidden" name="meta" value="meta">
+                                           <input type="button" class="see_more_product_btn" value="Xem thêm">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- kết thúc phần zone các sản phẩm -->
+                               <!-- mở đầu phần zone các sản phẩm -->
+                               <div class="zone_product">
+                                <div class="contend">
+                                    <div class="zone_product_image">
+                                        <img src="./img/popular_product/2caa3d5f-b4da-4f77-b793-dda59ddd2b5d2911332x4154758399x415-7367-removebg-preview.png" alt="" srcset="" class="img_product_popular">
+                                    </div>
+                                    <div class="title_product">
+                                        <a href="" class="title_product_link">
+    
+                                            <label class="title_product_txt"> sơn chống dính </label>
+                                        </a>
+                                    </div>
+                                    <div class="meta_product">
+                                        <span class="meta_product_txt">Đây là sản phẩm bột trét dùng để làm phẳng bề mặt</span>
+                                    </div>
+                                    <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+                                        <div class="btn_see_more_product">
+                                            <input type="hidden" name="img" value="img/video">
+                                            <input type="hidden" name="tilte" value="tille">
+                                            <input type="hidden" name="meta" value="meta">
+                                           <input type="button" class="see_more_product_btn" value="Xem thêm">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- kết thúc phần zone các sản phẩm -->
+                        </div>
+                    </nav>
+                </div>
+             </section>
+             <!-- kết thúc phần sản phẩm po bien  -->
+             <!-- mở đầu phần dự án tiêu biểu -->
+                <section id="plan">
+                    <header id="heder_plan">
+                        
+                    </header>
+                </section>
+             <!-- kết thúc phần dự án tiêu biểu -->
+        </div>
+        <footer id="footer">
+
+        </footer>
+    </div>
+</body>
+<script src="././js/slider.js"></script>
+<script src="../lable/js/menu_responsive.js"></script>
+<script src="./asset/bootstrap.bundle.min.js"></script>
+</html>

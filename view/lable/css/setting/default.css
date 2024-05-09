@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: clamp(12px,14px,1rem);
+}
+.grid
+{
+    margin: 0 auto;
+    width: 1400px;
+    max-width: 100%;
+}
